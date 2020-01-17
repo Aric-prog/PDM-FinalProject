@@ -92,11 +92,11 @@ class grid:
 
         # checks if the filename is valid, if not, return the previous value
         try:
-            txtfile = open(filename+".txt",'r')
+            txtfile = open("Configs\\" + filename+ ".txt",'r')
         except:
             return self.gridArr
 
-        with open(filename+".txt",'r') as txtfile:
+        with open("Configs\\" + filename+".txt",'r') as txtfile:
             # reads the file into a list, separated by lines
             lines = txtfile.readlines()
 
