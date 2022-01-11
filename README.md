@@ -1,5 +1,3 @@
-Assignment for the final project of PDM
+Final Project submission for Program Design Method
 
-Configs folder is where the txt configuration is located.
-
-The reader function will only read from that folder.
+An implementation of Conway's Game of Life written using Python and pygame. 
